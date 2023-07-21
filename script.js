@@ -3,15 +3,15 @@ function tampilkanAlert() {
     var peringkat;
 
     if (nilai >= 86 && nilai <= 100) {
-        grade = "A";
+        peringkat = "A";
     } else if (nilai >= 76 && nilai <= 85) {
-        grade = "B";
+        peringkat = "B";
     } else if (nilai >= 56 && nilai <= 75) {
-        grade = "C";
+        peringkat = "C";
     } else if (nilai >= 45 && nilai <= 55) {
-        grade = "D";
+        peringkat = "D";
     } else if (nilai >= 0 && nilai <= 44) {
-        grade = "E";
+        peringkat = "E";
     } else {
         alert("Nilai diluar range");
         return;
