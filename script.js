@@ -1,6 +1,6 @@
 function tampilkanAlert() {
     var nilai = prompt("Masukkan nilai:");
-    var grade;
+    var peringkat;
 
     if (nilai >= 86 && nilai <= 100) {
         grade = "A";
@@ -17,5 +17,5 @@ function tampilkanAlert() {
         return;
     }
 
-    alert("Nilai Anda: " + nilai + " Hasilnya adalah " + grade);
+    alert("Nilai Anda: " + nilai + " Hasilnya adalah " + peringkat);
 }
